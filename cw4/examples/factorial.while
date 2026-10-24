@@ -1,0 +1,10 @@
+write "Enter a number for n: ";
+read n;
+write "Enter an initial value for the acc: ";
+read acc;
+
+while n != 0 do {
+    acc := acc * n;
+    n := n - 1
+};
+write acc
